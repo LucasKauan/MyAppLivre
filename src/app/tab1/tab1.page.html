@@ -1,17 +1,64 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
+  <ion-toolbar color="light">
+    <ion-title>PandeWeb</ion-title>
+    <ion-searchbar color="danger"></ion-searchbar>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
+      <ion-title size="large">Chat</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-list>
+
+    <ion-item lines="none">
+      <ion-avatar slot="start">
+        <img src="https://th.bing.com/th/id/Rccd729e49c6c450f0dade7ad04b4c1e3?rik=BaYS9p2ECnZDeg&riu=http%3a%2f%2fzerohora.clicrbs.com.br%2frbs%2fimage%2f13229375.jpg&ehk=BVYgqJImVTnsCpS4KXhrpBpwmWkxr%2f8nsiSGdkoxZWI%3d&risl=&pid=ImgRaw">
+      </ion-avatar>
+      <ion-label>Pedro Chefe <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> </ion-label>
+      <ion-badge color="danger">1</ion-badge>
+    </ion-item>
+
+    <ion-item lines="none">
+      <ion-avatar slot="start">
+        <img src="https://i.pinimg.com/originals/6b/a8/e6/6ba8e6d7de01b757807db82cf6cc341f.jpg">
+      </ion-avatar>
+      <ion-label color="danger">Ana Clara <p>digitando...</p> </ion-label>
+      <ion-badge color="danger">3</ion-badge>
+    </ion-item>
+
+    <ion-item lines="none">
+      <ion-avatar slot="start">
+        <img src="https://th.bing.com/th/id/OIP.QYw4o9kNlyHbcuJ3PbEvnAHaIT?pid=ImgDet&rs=1">
+      </ion-avatar>
+      <ion-label>Sgt. Nantes <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> </ion-label>
+      <ion-badge color="danger">2</ion-badge>
+    </ion-item>
+
+    <ion-item lines="none">
+      <ion-avatar slot="start">
+        <img src="https://img.quizur.com/f/img5c772fbeefa346.67395500.jpeg?lastEdited=1551314901">
+      </ion-avatar>
+      <ion-label>Isabelly <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> </ion-label>
+      <ion-badge color="danger">2</ion-badge>
+    </ion-item>
+
+    <ion-item lines="none">
+      <ion-avatar slot="start">
+        <img src="https://amenteemaravilhosa.com.br/wp-content/uploads/2018/05/menino-de-costas-representando-pessoas-tranquilas.jpeg">
+      </ion-avatar>
+      <ion-label>Brandon <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> </ion-label>
+    </ion-item>
+
+  </ion-list>
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button color="danger">
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
 </ion-content>

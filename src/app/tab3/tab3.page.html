@@ -1,17 +1,53 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 3
-    </ion-title>
+  <ion-toolbar color="light">
+    <ion-title>PandeWeb</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
+      <ion-title size="large">Config</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  <ion-list>
+
+    <ion-item lines="full">
+      <ion-avatar slot="start">
+        <img src="https://media.istockphoto.com/photos/profile-of-young-bearded-man-in-plaid-shirt-wearing-sunglasses-picture-id641735558?k=6&m=641735558&s=170667a&w=0&h=0u9xfN4sKozOeBO1Mi-TPukFz62YLpY8nrf5sfAKJEg=">
+      </ion-avatar>
+      <ion-label>Chris Silva <p>Disponível</p> </ion-label>
+    </ion-item>
+
+    <ion-item lines="none">
+      <ion-avatar slot="start">
+        <ion-icon color="danger" name="key-outline"></ion-icon>
+      </ion-avatar>
+      <ion-label>Conta <p>Privacidade, Segurança</p> </ion-label>
+    </ion-item>
+
+    <ion-item lines="none">
+      <ion-avatar slot="start">
+        <ion-icon color="danger" name="notifications-outline"></ion-icon>
+      </ion-avatar>
+      <ion-label>Notificações <p>Mensagem, toques de grupo</p> </ion-label>
+    </ion-item>
+
+    <ion-item lines="none">
+      <ion-avatar slot="start">
+        <ion-icon color="danger" name="arrow-down-circle-outline"></ion-icon>
+      </ion-avatar>
+      <ion-label>Armazenamento e dados <p>Uso de rede, download automático</p> </ion-label>
+    </ion-item>
+
+    <ion-item lines="none">
+      <ion-avatar slot="start">
+        <ion-icon color="danger" name="help-outline"></ion-icon>
+      </ion-avatar>
+      <ion-label>Ajuda <p>Central de ajuda, fale conosco</p> </ion-label>
+    </ion-item>
+
+  </ion-list>
+
 </ion-content>
